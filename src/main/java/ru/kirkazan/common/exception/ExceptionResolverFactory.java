@@ -14,7 +14,7 @@ import java.util.Collection;
 @Component
 public class ExceptionResolverFactory
 {
-    @Autowired
+    @Autowired(required = false)
 	private Collection<ExceptionResolver> exceptionResolvers;
 
     public String resolve(Throwable throwable)
@@ -24,6 +24,9 @@ public class ExceptionResolverFactory
 
 	public MessageInfo resolveMessageInfo(Throwable throwable)
 	{
+        if (exceptionResolvers == null)
+            return null;
+
 		ExceptionResolver exceptionResolverForClass = null;
 		for (ExceptionResolver exceptionResolver : exceptionResolvers)
 		{
