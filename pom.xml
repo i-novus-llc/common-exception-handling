@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cz.atria</groupId>
-        <artifactId>kir.base</artifactId>
+        <groupId>ru.i-novus</groupId>
+        <artifactId>base-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
