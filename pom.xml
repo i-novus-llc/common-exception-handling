@@ -26,6 +26,17 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>Alexander Belov</name>
+            <email>abelov@i-novus.ru</email>
+        </developer>
+        <developer>
+            <name>Timur Nurdinov</name>
+            <email>tnurdinov@i-novus.ru</email>
+        </developer>
+    </developers>
+
     <organization>
         <name>I-Novus LLC</name>
         <url>https://i-novus.ru/</url>
