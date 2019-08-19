@@ -4,7 +4,7 @@
 
     <groupId>ru.i-novus.components</groupId>
     <artifactId>common-exception-handling</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>I-Novus Common Exception Handling library</name>
     <description>Handle exceptions and make them codified in Spring Framework appearance</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:https://git.i-novus.ru/util/common-exception-handling.git</connection>
         <url>https://git.i-novus.ru/util/common-exception-handling</url>
         <developerConnection>scm:git:https://git.i-novus.ru/util/common-exception-handling.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.1</tag>
     </scm>
 
     <licenses>
