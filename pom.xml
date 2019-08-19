@@ -4,7 +4,7 @@
 
     <groupId>ru.i-novus.components</groupId>
     <artifactId>common-exception-handling</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <name>I-Novus Common Exception Handling library</name>
     <description>Handle exceptions and make them codified in Spring Framework appearance</description>
